@@ -12,7 +12,6 @@
 - 📜 **Verse Citations**: Every location linked to specific Rig Veda verses with translations
 - 🎯 **Uncertainty Indicators**: Visual markers for disputed geographical locations
 - 🌓 **Dark/Light Mode**: Automatic theme switching based on system preference
-- 📱 **Responsive Design**: Works beautifully on desktop and mobile
 - 🔗 **Shareable Journeys**: Share specific paths via URL
 
 ## 🚀 Quick Start
@@ -52,7 +51,6 @@ npm run preview  # Preview production build
 ✅ **Zero data collection** - No analytics, no tracking  
 ✅ **Public domain translations** - Griffith (1896)  
 ✅ **Clear source attribution** - In sidebar footer  
-✅ **Desktop + Mobile** - Responsive design  
 ✅ **Mandalas 1-10 only** - No Khilas included  
 
 ## 🛠️ Tech Stack
