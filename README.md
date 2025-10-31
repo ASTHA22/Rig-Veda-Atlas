@@ -90,3 +90,5 @@ This project uses public domain translations (Griffith 1896). The code is open s
 ## 🙏 Acknowledgments
 
 Built for the Rig Veda Hackathon. Inspired by vedaweb.uni-koeln.de and iashris.com.
+
+#RigVedaHack
