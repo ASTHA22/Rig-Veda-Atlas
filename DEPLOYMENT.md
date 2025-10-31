@@ -1,4 +1,135 @@
-# 🚀 Deployment Guide - Rig Veda Sacred Atlas
+# 🚀 Deployment Guide
+
+## ✅ No Backend Needed!
+
+This is a **100% frontend application** - no backend, no database, no server required!
+
+- ✅ All data is in static JSON files (`src/data/`)
+- ✅ No API calls
+- ✅ No authentication
+- ✅ No database
+- ✅ **You DO NOT need Render or any backend hosting**
+
+## 📦 Deploy to Vercel (Recommended)
+
+### Option 1: Deploy via GitHub (Easiest)
+
+1. **Push your code to GitHub** (already done! ✅)
+   ```
+   https://github.com/ASTHA22/Rig-Veda-Atlas
+   ```
+
+2. **Go to Vercel**
+   - Visit https://vercel.com
+   - Click "Add New" → "Project"
+   - Click "Import Git Repository"
+
+3. **Import from GitHub**
+   - Select `ASTHA22/Rig-Veda-Atlas`
+   - Vercel auto-detects it's a Vite project
+
+4. **Configure (auto-detected)**
+   - Framework Preset: `Vite`
+   - Build Command: `npm run build`
+   - Output Directory: `dist`
+   - Install Command: `npm install`
+
+5. **Deploy**
+   - Click "Deploy"
+   - Wait 2-3 minutes
+   - Your site will be live at: `https://rig-veda-atlas.vercel.app`
+
+### Option 2: Deploy via CLI
+
+```bash
+# Install Vercel CLI
+npm install -g vercel
+
+# Login to Vercel
+vercel login
+
+# Deploy (from project root)
+cd /Users/astha/iip/rigveda-atlas
+vercel
+
+# Follow prompts:
+# - Set up and deploy? Yes
+# - Which scope? Your account
+# - Link to existing project? No
+# - Project name? rig-veda-atlas
+# - Directory? ./
+# - Override settings? No
+
+# Deploy to production
+vercel --prod
+```
+
+## 🌐 Your Live URL
+
+After deployment, you'll get a URL like:
+```
+https://rig-veda-atlas.vercel.app
+```
+
+## 🔧 Vercel Configuration
+
+Your `vercel.json` is already configured:
+
+```json
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
+```
+
+This ensures:
+- ✅ Client-side routing works (React Router)
+- ✅ Direct URL access to paths works
+- ✅ Refresh on any page works
+
+## 📊 What Gets Deployed
+
+```
+dist/
+├── index.html           # Main HTML
+├── assets/
+│   ├── index-[hash].js  # Bundled JavaScript
+│   └── index-[hash].css # Bundled CSS
+└── vite.svg            # Favicon
+```
+
+Total size: ~200KB (super fast!)
+
+## ⚡ Automatic Deployments
+
+Once connected to GitHub:
+- ✅ Every push to `main` → Auto-deploys to production
+- ✅ Every PR → Gets a preview URL
+- ✅ Zero configuration needed
+
+## 🎯 Summary
+
+**Q: Do I need a backend?**  
+**A:** NO! This is 100% frontend.
+
+**Q: Do I need Render?**  
+**A:** NO! Vercel handles everything.
+
+**Q: Do I need a database?**  
+**A:** NO! All data is in JSON files.
+
+**Q: What do I need?**  
+**A:** Just Vercel (free tier is perfect!)
+
+## 🔗 Useful Links
+
+- **Vercel Dashboard**: https://vercel.com/dashboard
+- **Vercel Docs**: https://vercel.com/docs
+- **Your GitHub Repo**: https://github.com/ASTHA22/Rig-Veda-Atlas - Rig Veda Sacred Atlas
 
 ## Quick Deploy to Vercel (5 minutes)
 
