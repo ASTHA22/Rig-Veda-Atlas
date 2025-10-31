@@ -2,7 +2,8 @@
 
 **Interactive geographical exploration of the Rig Veda** - Combining sacred geography, thematic filtering, and curated journeys through the Vedic world.
 
-🌐 **[Live Demo](https://rigveda-atlas.vercel.app)**
+**[Live Site](https://rigveda-atlas.vercel.app)**
+**[Live Demo](https://drive.google.com/file/d/1K98kMnkI46biAg9t_nDSS6G-q-tbsg8D/view?usp=sharing)**
 
 ## ✨ Features
 
