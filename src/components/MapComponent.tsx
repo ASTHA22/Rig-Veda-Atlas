@@ -132,7 +132,6 @@ function createCustomIcon(type: string, isSelected: boolean, uncertainty: string
 export default function MapComponent({
   locations,
   selectedLocation,
-  onLocationSelect,
   selectedPath,
   paths,
   themeFilters,
